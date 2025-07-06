@@ -44,7 +44,7 @@ $$OR=P(Trait∣SNP)/P(\overline{Trait}∣SNP)P(Trait∣\overline{SNP})/P(\overli
 In multi-trait reverse inference, estimating the conditional probability of carrying a SNP given the presence of multiple traits requires knowledge of the joint trait prevalence, P(A∩B). However, joint prevalence is often unavailable in summary-level data.
 
 To address this, we assume a range of plausible correlation coefficients r between traits and use a bivariate Bernoulli approximation to estimate joint prevalence:
-P(A \cap B) \approx P(A)P(B) + r\sqrt{P(A)(1 - P(A))P(B)(1 - P(B))}
+$$ P(A \cap B) \approx P(A)P(B) + r\sqrt{P(A)(1 - P(A))P(B)(1 - P(B))} $$  
 By sweeping r∈[r_min,r_max], we generate a bounded range for the inferred probability P(SNP∣A∩B). This provides a robust estimate even in the absence of precise phenotypic correlation data.
 
 This approach not only adds transparency but also enhances the applicability of the pRR framework in real-world settings where genotypic data is scarce and phenotypic correlation is uncertain.
