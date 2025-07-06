@@ -31,7 +31,7 @@ The posterior relative risk(pRR) quantifies how much more likely an individual i
 Formally:
 $rRR = \frac{P(S \mid T)}{P(S \mid\overline{T})}$
 Comparison with forward (conventional) OR
-$$OR=P(Trait∣SNP)/P(¬Trait∣SNP)P(Trait∣¬SNP)/P(¬Trait∣¬SNP)\text{OR} = \frac{P(\text{Trait} \mid \text{SNP}) / P(\neg \text{Trait} \mid \text{SNP})}{P(\text{Trait} \mid \neg \text{SNP}) / P(\neg \text{Trait} \mid \neg \text{SNP})}$$
+$$OR=P(Trait∣SNP)/P(\overline{Trait}∣SNP)P(Trait∣\overline{SNP})/P(\overline{Trait}∣\overline{SNP})\text{OR} = \frac{P(\text{Trait} \mid \text{SNP}) / P(\neg \text{Trait} \mid \text{SNP})}{P(\text{Trait} \mid \neg \text{SNP}) / P(\neg \text{Trait} \mid \neg \text{SNP})}$$
 
 
 # Validation Strategy
