@@ -29,7 +29,8 @@ Odds ratio bayesian conversion
 Definition of pRR
 The posterior relative risk(pRR) quantifies how much more likely an individual is to carry a specific genetic variant (e.g., a SNP) given the presence of a particular trait or disease, based on population-level summary statistics.
 Formally:
-$rRR = \frac{P(S \mid T)}{P(S \mid\overline{T})}$
+$rRR = \frac{P(S \mid T)}{P(S \mid\overline{T})}$  
+
 Comparison with forward (conventional) OR
 $$OR=P(Trait∣SNP)/P(\overline{Trait}∣SNP)P(Trait∣\overline{SNP})/P(\overline{Trait}∣\overline{SNP})\text{OR} = \frac{P(\text{Trait} \mid \text{SNP}) / P(\overline{\text{Trait}} \mid \text{SNP})}{P(\text{Trait} \mid \overline{\text{SNP}}) / P(\overline{\text{Trait}} \mid \ \text{SNP})}$$
 
